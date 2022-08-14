@@ -1,8 +1,9 @@
 {
   "name": "vite-plugin-localhost-certs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avin/vite-plugin-localhost-certs.git"
