@@ -5,7 +5,7 @@ export default function localhostCertsPlugin() {
     name: "vite-plugin-localhost-certs" as const,
     enforce: "pre" as const,
     config: (config) => {
-      if(config.server){
+      if (config.server) {
         config.server.https = localhostCerts();
       }
     },
